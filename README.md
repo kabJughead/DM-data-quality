@@ -136,11 +136,11 @@ python -m streamlit run scripts/app_frontend.py
 
 ### 6) Open the services
 
-| บริการ | URL |
+| บริการ | 
 |---|---|
-| Dashboard (Streamlit) | http://localhost:8501 |
-| API Docs (Swagger) | http://localhost:8000/docs |
-| Airflow UI | http://localhost:8080 (user: `admin`, รหัสผ่านตาม `AIRFLOW_ADMIN_PASSWORD`) |
+| Dashboard (Streamlit) |
+| API Docs (Swagger) |
+| Airflow UI |
 
 ### (Optional) Public URL with ngrok
 ติดตั้ง ngrok จาก https://ngrok.com/download แล้วรัน

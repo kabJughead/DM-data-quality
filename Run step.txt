@@ -1,0 +1,18 @@
+
+pre step เปิด cmd run admin และ run คำสั่ง
+ "net stop postgresql-x64-18" ก่อนค่อยเริ่ม step ที่ 1
+
+
+run 4 terminal
+1.รัน Docker
+docker-compose up -d
+
+2.cd scripts ก่อนแค่ fort and Back end
+python -m uvicorn api:app --reload --host 0.0.0.0 --port 8000
+python -m streamlit run "C:\DM-data-quality\scripts\app_frontend.py"  
+
+
+3.Deploy demon
+.\ngrok http 8501
+
+http://localhost:8000/docs#/

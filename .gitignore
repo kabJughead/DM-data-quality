@@ -1,0 +1,24 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Airflow runtime
+logs/
+airflow.db
+config/airflow.cfg
+
+# Binaries / local artifacts
+ngrok.exe
+*.log
+
+# Secrets / env
+.env
+post/.env
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+docker-compose.env

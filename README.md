@@ -137,7 +137,6 @@ python -m streamlit run scripts/app_frontend.py
 ### 6) Open the services
 
 | บริการ | 
-|---|---|
 | Dashboard (Streamlit) |
 | API Docs (Swagger) |
 | Airflow UI |
